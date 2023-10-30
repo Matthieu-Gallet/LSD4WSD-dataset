@@ -4,7 +4,7 @@ LSD4WSD:
 The aim of this dataset is to provide a basis for automatic learning to detect wet snow.
 It is based on Sentinel-1 SAR satellite images acquired between August 2020 and August 2021 over the French Alps (tiles 31 TGL). The new version of this dataset is no longer simply restricted to a classification task, and provides a set of metadata for each sample. 
 
-![image-20231030121103383](/home/listic/Téléchargements/README.assets/image-20231030121103383.png)
+![image-20231030121103383](README.assets/image-20231030121103383.png)
 
 | Types            | Improvements                                                 |
 | ---------------- | ------------------------------------------------------------ |
