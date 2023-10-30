@@ -1,0 +1,40 @@
+shp_path : "../data/shp/"
+data_path : "../data/data_GRD/31TGL_DESC_unfil/*.tif"
+
+type_d: "DSC"
+aux_path: "../data/auxiliary_data/*.tif"
+mask_path: "../data/auxiliary_data/S1_mask_lay/DSCLAY_CRS32631.tif"
+csv_GT : 
+    - "../data/infos_MF/FC_21X22_dsc_tn.pkl"
+    - "../data/infos_MF/FC_21X22_dsc_hs.pkl"
+    - "../data/infos_MF/FC_21X22_dsc_tel.pkl"
+    
+ouput_dir: "../dataset_/V8x1_dataset_D_HD15_REG_LIN/"
+ouput_stor:  "../wetsnow_dataset_/V5_dataset_D_HD15_REG_LIN/"
+
+
+folders : 
+    - "train"
+
+typeaux: 
+    - "DEM10M"
+    - "EXP10M"
+    - "PEN10M"
+    - "REd10M"
+
+dicbands : 
+     7 : "ref_to_ratio"
+     8 : "ref_to_ratio"
+     9 : "ref_to_ratio"
+
+workers : -1
+step : 
+    - 25
+    - 36
+patchs_size : 15
+
+normalize : False
+mask_data: True
+add_aux: True
+save: True
+
